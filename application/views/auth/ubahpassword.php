@@ -11,9 +11,6 @@
 			<div class="row">
 				<div class="col-lg">
 					<div class="p-5">
-						<div class="text-center">
-							<h1 class="h4 text-gray-900 mb-4"><?= $title; ?></h1>
-						</div>
 						<form class="user" action="<?= base_url('auth/ubahpassword') ?>" method="post">
 							<div class="form-group">
 								<input type="password" name="password1" class="form-control form-control-user" placeholder="Password">
