@@ -2,5 +2,5 @@
 Aplikasi Rafli Login Menggunakan CodeIgniter 3
 ###################
 
-Karya: **Rahmat Rafli**
+Karya: **Rahmat Rafli**<br/>
 Dibuat tanggal: 28 Juni 2023
