@@ -265,7 +265,7 @@ class Auth extends CI_Controller
 			$this->db->delete('user_token', ['email' => $email]);
 
 			$this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert">Password berhasil diubah! Silahkan masuk akun anda.</div>');
-			redirect('auth');
+			redirect('/');
 		}
 	}
 }
